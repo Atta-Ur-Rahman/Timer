@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.atta_ur_rahman.timer.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_5min"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/round_button"
+            android:hint="5:00"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="35dp" />
+
+        <ImageView
+            android:id="@+id/iv_5min_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/play"
+            android:visibility="gone"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/iv_5min_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pause"
+            android:visibility="gone"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/iv_5min_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/restart"
+            android:visibility="gone"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="105dp"/>
+
+        </FrameLayout>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    >
+
+
+    <Button
+        android:id="@+id/btn_10min"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="10:00"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/iv_10min_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/play"
+        android:visibility="gone"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_10min_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        android:visibility="gone"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_10min_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:srcCompat="@drawable/restart"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="105dp"/>
+
+</FrameLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_15min"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="15:00"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:id="@+id/iv_15min_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/play"
+        android:visibility="gone"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_15min_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        android:visibility="gone"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_15min_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/restart"
+        android:visibility="gone"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="105dp"/>
+
+</FrameLayout>
+
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/btn_20min"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="20:00"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+    <ImageView
+        android:id="@+id/iv_20min_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/play"
+        android:visibility="gone"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_20min_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        android:visibility="gone"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/iv_20min_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/restart"
+        android:layout_marginLeft="40dp"
+        android:visibility="gone"
+        android:layout_marginTop="105dp"/>
+
+
+
+</FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_25min"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="25:00"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <ImageView
+            android:id="@+id/iv_25min_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/play"
+            android:visibility="gone"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/iv_25min_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pause"
+            android:visibility="gone"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/iv_25min_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/restart"
+            android:visibility="gone"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="105dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+        <Button
+            android:id="@+id/btn_30min"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="30:00"
+            android:textSize="35dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+            <ImageView
+                android:id="@+id/iv_30min_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/play"
+                android:visibility="gone"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="105dp"/>
+
+            <ImageView
+                android:id="@+id/iv_30min_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pause"
+                android:visibility="gone"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="105dp"/>
+
+            <ImageView
+                android:id="@+id/iv_30min_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/restart"
+                android:visibility="gone"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="105dp"/>
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
